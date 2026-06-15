@@ -1,0 +1,12 @@
+[
+  {"bits":2,"useful":3641468,"full_positive":2358512,"fpr_emp":0.3930866436221454,"fpr_pred":0.38254613147039535,"ofh":0},
+  {"bits":4,"useful":5069105,"full_positive":930873,"fpr_emp":0.15514606886891918,"fpr_pred":0.14634154270296498,"ofh":0},
+  {"bits":6,"useful":5647458,"full_positive":352521,"fpr_emp":0.058753705637969736,"fpr_pred":0.055982391034428924,"ofh":0},
+  {"bits":8,"useful":5850036,"full_positive":149944,"fpr_emp":0.024990749969166563,"fpr_pred":0.02141584712068372,"ofh":0},
+  {"bits":10,"useful":5929577,"full_positive":70402,"fpr_emp":0.011733707734643738,"fpr_pred":0.008192549468178961,"ofh":0},
+  {"bits":12,"useful":5959735,"full_positive":40245,"fpr_emp":0.006707522358407861,"fpr_pred":0.003134028105931708,"ofh":0},
+  {"bits":14,"useful":5973721,"full_positive":26257,"fpr_emp":0.004376182712669947,"fpr_pred":0.0011989103278436648,"ofh":0},
+  {"bits":16,"useful":5978796,"full_positive":21183,"fpr_emp":0.0035305123567932486,"fpr_pred":0.0004586385078964973,"ofh":0},
+  {"bits":8,"useful":3900133,"full_positive":99851,"fpr_emp":0.024962849851399405,"fpr_pred":0.02141584712068372,"ofh":1},
+  {"bits":10,"useful":3952883,"full_positive":47101,"fpr_emp":0.011775297101188405,"fpr_pred":0.008192549468178961,"ofh":1}
+]

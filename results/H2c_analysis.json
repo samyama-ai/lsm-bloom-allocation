@@ -1,0 +1,42 @@
+{
+  "global_mae": 0.23089219288066362,
+  "global_mae_ci": [
+    0.1340407612820472,
+    0.3505587834900083
+  ],
+  "global_pass_0.15": false,
+  "in_regime_mae": 0.01482516745132363,
+  "in_regime_mae_ci": [
+    0.0042718455200577215,
+    0.0327962973449243
+  ],
+  "in_regime_n": 9,
+  "in_regime_pass_0.15": true,
+  "V_REGIME_bound": 0.3,
+  "per_trace": [
+    {
+      "trace": "group0",
+      "V_max": 2.0,
+      "regime": "high-drift/saturation (V>1)",
+      "mae_all": 0.43070879116950866,
+      "mae_in_regime": null,
+      "n_in_regime": 0
+    },
+    {
+      "trace": "group1",
+      "V_max": 0.04,
+      "regime": "coarse-suffices (V<0.1)",
+      "mae_all": 0.005307199726366077,
+      "mae_in_regime": 0.005307199726366077,
+      "n_in_regime": 7
+    },
+    {
+      "trace": "group2",
+      "V_max": 0.978,
+      "regime": "transitional",
+      "mae_all": 0.25666058774611616,
+      "mae_in_regime": 0.04813805448867506,
+      "n_in_regime": 2
+    }
+  ]
+}

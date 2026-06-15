@@ -1,0 +1,10 @@
+{
+  "C_uniform": 0.02141584712068372,
+  "C_monkey": 0.00020566673914825952,
+  "reduction": 0.9903965162811783,
+  "log_law_slope": 2.081368981005607,
+  "log_law_slope_theory": 2.0813689810056077,
+  "log_law_r2": 1.0,
+  "H0a_pass": true,
+  "H0b_pass": true
+}

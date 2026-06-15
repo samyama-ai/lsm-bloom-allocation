@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "lsm-bloom-allocation: the value of adaptivity in LSM Bloom-filter tuning"
+authors:
+  - family-names: Mandarapu
+    given-names: Madhulatha
+    email: madhulatha@samyama.ai
+    affiliation: VaidhyaMegha Private Limited
+  - family-names: Kunkunuru
+    given-names: Sandeep
+    email: sandeep@samyama.ai
+    affiliation: VaidhyaMegha Private Limited
+version: 0.1.0
+date-released: 2026-06-15
+license: Apache-2.0
+repository-code: "https://github.com/samyama-ai/lsm-bloom-allocation"
+keywords:
+  - LSM-tree
+  - Bloom filter
+  - approximate membership
+  - workload adaptivity
+  - RocksDB
+abstract: >
+  A pre-registered study of when workload-adaptive LSM Bloom-filter tuning is worth its machinery.
+  The optimal bits-per-key is affine in log access-frequency (the log-law), so the optimal allocation
+  is robust to hotness-estimation error (excess cost = D/2, common-factor-immune), and the value of
+  continuous online tracking over a coarse allocation recomputed only at compaction is governed by a
+  two-clock frontier with closed form r* = sqrt(2 (C_uniform - C_oracle)/C_oracle). Validated on
+  synthetic sweeps, real Twitter production cache traces, and a real RocksDB engine.
