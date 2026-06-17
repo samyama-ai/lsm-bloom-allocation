@@ -7,6 +7,8 @@ workload-adaptive bit allocation actually pays — from first principles, valida
 
 > Problem: [`dbms_research/11-nosql-kv/adaptive-bloom-filter-tuning`](https://github.com/samyama-ai/dbms_research).
 > This is an honest baseline-and-characterisation (mode b), not a SOTA claim. Limitations are in §6 and the paper.
+>
+> **Preprint:** [arXiv:2606.18138](https://arxiv.org/abs/2606.18138) (cs.DB).
 
 ## The model
 
